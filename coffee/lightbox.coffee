@@ -94,8 +94,7 @@ class Lightbox
           $('<a/>', class: 'lb-close').append(
             $('<img/>', src: @options.fileCloseImage)
           )
-        ),
-	$('<div/>', class: 'lb-dataContainer')
+        )
       )
     ).appendTo $('body')
 
