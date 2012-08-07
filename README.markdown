@@ -1,3 +1,10 @@
+##Lightbox2 fork 
+by Peter Morihladko
+
+* close button in top right corner
+
+--
+
 ##Lightbox2
 by Lokesh Dhakar | [lokeshdhakar.com](http://www.lokeshdhakar.com)  | [twitter.com/lokeshdhakar](http://twitter.com/lokeshdhakar)  
 

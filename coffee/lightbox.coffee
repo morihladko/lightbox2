@@ -90,21 +90,12 @@ class Lightbox
                 $('<img/>', src: @options.fileLoadingImage)
               )
             )
+          ),
+          $('<a/>', class: 'lb-close').append(
+            $('<img/>', src: @options.fileCloseImage)
           )
         ),
-        $('<div/>', class: 'lb-dataContainer').append(
-          $('<div/>', class: 'lb-data').append(          
-            $('<div/>', class: 'lb-details').append(
-              $('<span/>', class: 'lb-caption'),
-              $('<span/>', class: 'lb-number')
-            ),
-            $('<div/>', class: 'lb-closeContainer').append(
-              $('<a/>', class: 'lb-close').append(
-                $('<img/>', src: @options.fileCloseImage)
-              )
-            )
-          )
-        )
+	$('<div/>', class: 'lb-dataContainer')
       )
     ).appendTo $('body')
 
